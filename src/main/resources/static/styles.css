@@ -1,0 +1,98 @@
+body {
+    font-family: 'Press Start 2P', cursive; /* Arcade-style font */
+    background-color: #000; /* Dark background for an arcade feel */
+    color: #00ff00; /* Bright green text like classic arcade screens */
+    margin: 0;
+    padding: 20px;
+}
+input::placeholder{
+    font-family: 'Press Start 2P', cursive; /* Arcade-style font */
+    background-color: #000; /* Dark background for an arcade feel */
+
+}
+header {
+    background: #222; /* Darker header */
+    color: #ffd700; /* Gold text for a retro touch */
+    padding: 15px 0;
+    text-align: center;
+    border: 2px solid #00ff00; /* Adding border to header */
+    text-shadow: 1px 1px 2px #000; /* Text shadow for depth */
+}
+
+main {
+    margin-top: 20px;
+    background: #111; /* Dark background for main area */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a modern arcade feel */
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5); /* Bright shadow */
+}
+
+form {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffd700; /* Gold label for consistency */
+}
+
+input {
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 15px;
+    border: 2px solid #00ff00; /* Bright green border */
+    border-radius: 5px;
+    background: #222; /* Darker input background */
+    color: #00ff00; /* Green text */
+}
+
+button {
+    background: #00ff00; /* Bright green button */
+    color: #000; /* Black text on buttons */
+    border: none;
+    padding: 10px;
+    border-radius: 5px; /* Rounded button corners */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    transition: background 0.3s; /* Smooth transition effect */
+}
+
+button:hover {
+    background: #00cc00; /* Slightly darker green on hover */
+}
+nav {
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+    text-align: center; /* Center align buttons */
+}
+
+nav a {
+    background-color: #00ff00; /* Bright green to match the theme */
+    color: #000; /* Black text on buttons */
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px; /* Rounded corners for consistency */
+    font-weight: bold; /* Bold text for emphasis */
+    text-transform: uppercase; /* Uppercase text for emphasis */
+    transition: background 0.3s; /* Smooth transition effect */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Bright shadow for effect */
+}
+
+nav a:hover {
+    background-color: #00cc00; /* Slightly darker green on hover */
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.8); /* Enhanced shadow effect on hover */
+}
+#djList {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;            /* Removes default padding */
+}
+
+.djList_li {
+    margin: 20px;   /* Adjust this value to increase/decrease space between items */
+    color: #ffd700;        /* Optional: Matches with your theme */
+}

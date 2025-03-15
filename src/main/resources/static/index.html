@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30 Year Birthday Rave</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <h1>30 Year Birthday Rave</h1>
+</header>
+<nav>
+  <a href="timetable.html" class="button">Timetable</a>
+  <a href="gear.html" class="button">Gear</a>
+  <a href="djs.html" class="button">DJs</a>
+</nav>
+
+<main>
+  <h4>Hello! Welcome to my birthday party sign-up form thing that I made myself</h4>
+  <h4>I wish that we can have an awesome celebration in our new apartment with a lot of our dear friends</h4>
+  <h4>To make this event amazing, I would like to invite any of my friends to sign up and play some music</h4>
+  <h4>Music really brings people together, so I thought it would be cool to give everyone an opportunity to share what makes them move</h4>
+  <h4>No experience required</h4>
+  <h4>Just bring your music on a USB - we got everything else</h4>
+  <h4>Sign up with som info, then I try to sort out a line-up</h4>
+  <h2>Add a DJ</h2>
+  <form id="djForm">
+    <label for="name">DJ Name:</label>
+    <input type="text" id="name" placeholder="Funky DJ name" name="name" required>
+
+    <label for="genre">Genre:</label>
+    <input type="text" id="genre" name="genre" placeholder="Folk?" required>
+
+    <label for="bpm">BPM (ish):</label>
+    <input type="number" id="bpm" name="bpm" placeholder="100? 160?" required>
+
+    <label for="availability">Preferred time to play:</label>
+    <input type="text" id="availability" name="availability" placeholder="Whenever :-)" required>
+
+<!--    <label for="bio">Link:</label>
+    <input type="text" id="bio" name="bio" placeholder="Soundcloud maybe?" required>
+-->
+    <button type="submit">Add DJ</button>
+  </form>
+  <div id="message"></div>
+  <a href="timetable.html">View DJ Timetable</a>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
