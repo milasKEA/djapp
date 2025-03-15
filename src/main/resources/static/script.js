@@ -5,8 +5,7 @@ console.log("fuck")
         name: document.getElementById('name').value,
         genre: document.getElementById('genre').value,
         availability: document.getElementById('availability').value,
-        bpm: document.getElementById('bpm').value,
-        bio: document.getElementById('bio').value
+        bpm: document.getElementById('bpm').value
     };
 
     fetch('/api/djs', {
@@ -19,7 +18,7 @@ console.log("fuck")
         .then(response => {
             if (response.ok) {
                 console.log(djData.bio);
-                document.getElementById('message').innerText = djData.bio;
+                document.getElementById('message').innerText = "DJ added successfully!";
                 document.getElementById('djForm').reset(); // Reset the form
             } else {
                 throw new Error('Failed to add DJ');
